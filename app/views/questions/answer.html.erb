@@ -1,9 +1,16 @@
-<ul>
-  <li><%= params[:question] %> </li>
-  <li>-You</li>
-</ul>
+<h1>Stupid Coaching</h1>
 
-<ul>
-  <li><%= @ans %> </li>
-  <li>-Your Coach</li>
-</ul>
+<div class="box">
+  <ul class="list">
+    <li><%= params[:question] %> </li>
+    <li class="person">-You</li>
+  </ul>
+</div>
+
+<div class="box">
+  <ul class="list">
+    <li><%= @ans %> </li>
+    <li class="person">-Your Coach</li>
+  </ul>
+</div>
+
